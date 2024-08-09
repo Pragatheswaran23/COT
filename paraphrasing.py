@@ -69,9 +69,4 @@ def paraphrase_text(text):
     paraphrased_sentences = [paraphrase_sentence(sentence) for sentence in sentences]
     return ' '.join(paraphrased_sentences)
 
-# Example usage
-text = "Natural language processing (NLP) focuses on enabling machines to understand human language."
 
-paraphrased_text = paraphrase_text(text)
-print("Original Text:\n", text)
-print("\nRule-Based Paraphrased Text:\n", paraphrased_text)

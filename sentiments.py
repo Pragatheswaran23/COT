@@ -24,12 +24,3 @@ def analyze_sentiment(sentence):
         sentiment = "Neutral"
     
     return sentiment
-
-# Example sentence
-sentence = "I love this new phone, it's amazing!"
-
-# Get sentiment analysis
-sentiment = analyze_sentiment(sentence)
-
-# Output the result
-print(f"Overall Sentiment: {sentiment}")
